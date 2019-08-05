@@ -1,0 +1,85 @@
+ @media (max-width: 1024px) {
+
+.menu {
+	display:none;
+}
+.burgers-feature-shadow {
+	display: none;
+}
+
+.burgers-cooking-shadow {
+	display: none;
+ }
+
+
+.order {
+	margin-left: 100px;
+}
+
+.wrap {
+	justify-content:center;
+}
+
+.popup-menu {
+	display: block;
+	margin-left: 100px;
+
+}
+
+
+.reception-item  {
+width: 50%;
+}
+
+.reception {
+	justify-content:center;
+}
+
+.delivery h3 {
+	text-align: center;
+}
+}
+
+
+@media (max-width: 724px) {
+
+.popup-menu{
+	order: -1;
+	margin-right: 100px;
+
+}
+
+
+.sum {
+	display: none;
+}
+.button-order {
+	display: none;
+}
+
+
+ .burgers-feature {
+ 	width: 100%;
+ 	
+
+
+ }
+ .burgers-feature-img {
+ 	display: none;
+
+ }
+
+
+
+
+
+}
+
+
+
+
+
+@media (max-width: 480px) {
+
+
+}
