@@ -107,16 +107,16 @@ menu>ul li {
   
 }
 
+menu>ul li {
+  position: relative;
+}
+
 menu>ul>li>a {
   display:block;
   color: #fff;
   padding: 33px;
   transition: all 0.3s ease;
 }
-menu>ul li {
-  position: relative;
-}
-
 menu>ul>li>a:hover {
   color:#eedf9c;
   transition: all 0.3s ease;
@@ -127,13 +127,11 @@ menu>ul>li>a:hover {
 menu>ul>li::after {
   position: absolute;
   top:35px;
-  right:-2px;
+  right: -2px;
   content:'';
   font-family: 'FontAwesome';
   font-size:10px;
   color: #434242;
-
-
 }
 
 menu>ul>li:last-child::after {
@@ -142,11 +140,14 @@ menu>ul>li:last-child::after {
 
 
 .donate a {
+  padding: 33px;
   color: #fff;
+  transition: all 0.3s ease;
 }
 
 .donate a:hover {
   color:#eedf9c;
+  border-bottom: 5px solid #eedf9c;
   transition: all 0.3s ease;
 }
 
@@ -157,6 +158,7 @@ menu li ul{
  min-width: 150px;
  background-color:#fff; 
  transition: all 0.3s ease;
+ display: none;
 }  
 menu li>ul>li a {
 
@@ -171,6 +173,11 @@ menu li>ul>li {
   border-bottom:1px solid black;
   transition: all 0.3s ease;
 }
+
+menu li:hover>ul{
+ display: block;
+ transition: all 0.3s ease;
+}    
 
 menu li>ul>li:first-child {
  margin-top:25px;
