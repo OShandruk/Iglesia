@@ -189,3 +189,21 @@ menu li>ul>li:last-child {
 }
 
 /*END HEADER*/
+
+
+/*SLIDER*/
+.wrap-slider {
+  height: 445px;
+  overflow: hidden;
+}
+.left-img {
+  width: 50%;
+  background: url(../img/image-slider1.jpg) center /cover;
+}
+.right-img {
+  width: 50%;
+  background: url(../img/image-slider2.jpg) center /cover;
+}
+
+
+/*END SLIDER*/
