@@ -29,6 +29,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
 body {
 	height: 100%;
 	line-height: 1;

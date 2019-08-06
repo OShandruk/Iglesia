@@ -1,8 +1,9 @@
+
 @font-face{
 
-font-family: 'Droid';
+font-family: 'Myriad Pro';
 
-src: url('../fonts/Droid Serif Italic.ttf');
+src: url('../fonts/Myriad Pro.otf');
 
 font-weight: normal;
 }
@@ -19,7 +20,8 @@ header {
 }
 
 .container {
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
 
 }
@@ -151,7 +153,8 @@ menu>ul>li:last-child::after {
   transition: all 0.3s ease;
 }
 
-/*sub menu*/
+/*sub menu
+===============*/
 
 menu li ul{
  display: block;
@@ -214,10 +217,16 @@ menu li > ul li ul{
 
 
 
-/*END HEADER*/
+/*END HEADER
+==============*/
 
 
-/*SLIDER*/
+/*SLIDER
+============*/
+
+.slider {
+  position: relative;
+}
 .wrap-slider {
   height: 445px;
   overflow: hidden;
@@ -230,6 +239,66 @@ menu li > ul li ul{
   width: 50%;
   background: url(../img/image-slider2.jpg) center /cover;
 }
+.righ-img-text {
+  padding-top: 70px;
+  padding-left: 90px;
+  color:#fff;
+  font-family: Myriad Pro, sans-serif;
+}
+
+.righ-img-text h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 54px;
+}
+.button {
+  padding: 10px 30px;
+  background-color: #eedf9c;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+a.button {
+  color: #804258;
+} 
+a.button:hover {
+  background-color: #e6c739;
+  transition: all 0.3s ease;
+}
+
+.slide-btn {
+  width: 50%;
+  
+  margin: auto;
+  overflow: auto;
+  position: absolute;
+  left: auto; bottom: 0px; right:50px;
+}
+
+.slide-btn  a {
+  text-align: center;
+  padding-top: 15px;
+  display: block;
+  font-family: FontAwesome, sans-serif;
+  color: #fff;
+  font-size: 20px;
+}
+
+.slide-left {
+ width: 50px;
+ height: 50px;
+  background-color: #000;
+  opacity: 0.5
+  
+}
+.slide-right {
+ width: 50px;
+ height: 50px;
+  background-color: #000;
+  opacity: 0.5
+  
+}
 
 
-/*END SLIDER*/
+
+/*END SLIDER
+===============*/
