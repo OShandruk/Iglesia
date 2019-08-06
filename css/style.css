@@ -111,6 +111,7 @@ menu>ul li {
 
 menu>ul li {
   position: relative;
+
 }
 
 menu>ul>li>a {
@@ -159,6 +160,7 @@ menu>ul>li:last-child::after {
 menu li ul{
  display: block;
  position: absolute;
+ z-index: 999;
  border-top: 4px solid #eedf9c;
  min-width: 150px;
  background-color:#fff; 
@@ -226,6 +228,7 @@ menu li > ul li ul{
 
 .slider {
   position: relative;
+
 }
 .wrap-slider {
   height: 445px;
@@ -267,7 +270,6 @@ a.button:hover {
 
 .slide-btn {
   width: 50%;
-  
   margin: auto;
   overflow: auto;
   position: absolute;
@@ -302,3 +304,6 @@ a.button:hover {
 
 /*END SLIDER
 ===============*/
+
+
+font-family: 'Playfair Display', serif;
