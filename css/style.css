@@ -18,6 +18,16 @@ font-weight: normal;
 }
 
 
+@font-face{
+
+font-family: 'DroidSerif Italic';
+
+src: url('../fonts/DroidSerif-Regular.ttf');
+
+font-weight: normal;
+}
+
+
 /*HEADER*/
 
 header {
@@ -712,6 +722,137 @@ END VIDEO*/
 /*=================
 END OUR BLOG*/
 
+/*DONATION
+===================*/
+.donation {
+   padding-bottom: 0px;
+}
+.donation-wrap {
+  justify-content: space-between;
+}
+
+.donation-title {
+  position: relative;
+  font-size: 44px;
+  color: #5a1830;
+  text-align: center;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.donation-subtitle {
+  display: block;
+  padding-top:20px;
+  margin-bottom: 35px;
+
+  font-family: 'DroidSerif', serif;
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.donation-button {
+  display: inline-block;
+  padding: 20px 40px 20px 40px; 
+  background-color: #7f4258;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.donation-button span {
+  font-family: FontAwesome, sarif;
+}
+
+.donation-button:hover {
+  background-color: #c55a81;
+  transition: all 0.3s ease;
+}
+a.donation-button  {
+  color: #fff;
+  text-transform: uppercase;
+} 
+
+.donation-text {
+  margin-top: 50px;
+  text-align: right;
+  width:40%;
+  font-family: 'DroidSerif Italic', serif;
+  font-size: 12px;
+  color: #b3b3b3;
+  line-height: 1.9;
+}
+.donation-text span { 
+  display: block;
+  padding-top: 15px;
+}
 
 
+/*=======================
+ENC DONATION*/
 
+/*BOTTOM SLIDER
+=====================*/
+
+
+.bottom-slider {
+  padding-top: 0px;
+}
+.bottom-slider>ul {
+  display: flex;
+} 
+
+.slider-overlay {
+  position: relative;
+  /*display: none;*/
+  background-color:#7f4258;
+
+}
+.bottom-slider>ul>li {
+  display: block;
+  position: relative;
+}
+.bottom-slider>ul>li:after{
+    content: ''; 
+    position: absolute;
+    top: 0;
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background: rgba(127,66,88,.5);  
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+
+.bottom-slider>ul>li:hover::after {
+ opacity: 1;
+ transition: all 0.3s ease; 
+}
+
+.slider-arrow {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  font-family: FontAwesome, serif;
+  font-size: 20px;
+  color: #fff;
+  padding: 15px;
+  background-color: #7f4258;
+  border-radius: 50%;
+  margin: auto;
+  overflow: auto;
+  left: auto; top:90px; right:200px;
+  transition: all 0.3s ease;
+  z-index: 999;
+}
+.slider-arrow:hover {
+  background-color:#c55a81; 
+  transition: all 0.3s ease;
+}
+
+.bottom-slider>ul>li:hover .slider-arrow {
+  transition: all 0.3s ease;
+  opacity: 1;
+
+}
+
+/*======================
+END BOTTOM SLIDER*/
