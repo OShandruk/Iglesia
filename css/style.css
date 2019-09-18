@@ -47,7 +47,7 @@ header {
 
 
 .avesome {
-  font-family: FontAwesome, serif;
+  font-family: FontAwesome, sans-serif;
 }
 .search {
   position: relative;
@@ -856,3 +856,96 @@ ENC DONATION*/
 
 /*======================
 END BOTTOM SLIDER*/
+
+
+/*FOOTER
+============================*/
+.footer-wrap {
+  justify-content: space-between;
+}
+.footer-logo {
+  font-family: 'Playfair Display', serif;
+  font-weight:700;
+  font-size: 20px;
+  color:#000;
+}
+
+.footer-title {
+  padding-bottom: 25px;
+  font-family: 'Arial', serif;
+  font-weight:700;
+  font-size: 18px;
+  color:#000;
+}
+.footer-information ul li a {
+  font-family: 'Arial', serif;
+  font-size: 14px;
+  color: #b4b4b4;
+  
+}
+.footer-information ul li {
+  padding-bottom: 10px;
+  
+}
+.footer-contact {
+  color: #b4b4b4;
+  line-height: 1.5;
+  font-size: 14px;
+}
+.footer-twit {
+  width: 25%;
+}
+.footer-tweet-title {
+  padding-bottom: 25px;
+  color: #000;
+}
+
+.footer-tweet-title span {
+  font-family: 'FontAwesome', sans-serif;
+  color: #5ad2ff;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.footer-twit-text {
+  color: #b4b4b4;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+.footer-bottom {
+  background: url(../img/footer-bottom.png) center no-repeat;
+}
+  
+
+.footer-bottom-wrap {
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+
+.footer-bottom-left {
+  color: #b4b4b4;
+}
+.footer-bottom-right {
+   width: 20%;
+}
+.footer-bottom-right ul {
+ 
+  justify-content: space-between;
+
+}
+.footer-bottom-right ul li a{
+ 
+  font-size: 30px;
+  color: #b4b4b4;
+  transition: all 0.3s ease;
+}
+.footer-bottom-right ul li a:hover {
+  color: #7f4258;
+  transition: all 0.3s ease;
+}
+
+/*==============================
+END FOOTER*/
