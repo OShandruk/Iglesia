@@ -251,10 +251,12 @@ menu li > ul li ul{
 }
 .left-img {
   width: 50%;
+  height: 445px;
   background: url(../img/image-slider1.jpg) center /cover;
 }
 .right-img {
   width: 50%;
+  height: 445px;
   background: url(../img/image-slider2.jpg) center /cover;
 }
 .righ-img-text {
@@ -301,6 +303,7 @@ a.button:hover {
 }
 
 .slide-left {
+display: block;
  width: 50px;
  height: 50px;
   background-color: #000;
@@ -308,6 +311,7 @@ a.button:hover {
   
 }
 .slide-right {
+  display: block;
  width: 50px;
  height: 50px;
   background-color: #000;
@@ -436,6 +440,7 @@ END NEXT SERMONS*/
 ====================*/
 .our-people {
   height: 100%;
+  position: relative;
   background-color: #5a1830;
   background: url(../img/our-people-bg.jpg) center /cover; 
 }
@@ -458,8 +463,9 @@ END NEXT SERMONS*/
 .arrow-left {
   position: absolute;
   text-align: center;
-  top: -70px;
-  left: 250px;
+  box-sizing: border-box;
+  top: 90px;
+  left: 500px;
   height: 50px;
   width: 50px;
   font-family: FontAwesome, sans-serif;
@@ -473,8 +479,8 @@ END NEXT SERMONS*/
 .arrow-right {
   position: absolute;
   text-align: center;
-  top: -70px;
-  right: 250px;
+  top: 90px;
+  right: 500px;
   height: 50px;
   width: 50px;
   font-family: FontAwesome, sans-serif;
@@ -485,10 +491,23 @@ END NEXT SERMONS*/
   cursor:pointer;
   transition: all 0.3s ease;
 }
+
+.arrow-right span
+{
+  position: absolute;
+  top:5px;
+  right:17px;
+}
+
+.arrow-left span {
+  position: absolute;
+  top:5px;
+  left: 17px;
+}
 .arrow-left:hover,
 .arrow-right:hover {
   color: #fff;
-  border:1px solid #b18b99 ;
+  box-shadow:0px 0px 0px 3px #b18b99 ;
   transition: all 0.3s ease;
 }
 
@@ -501,20 +520,16 @@ END NEXT SERMONS*/
   justify-content: space-between;
 }
 .our-people-item {
+  display: flex !important;
+  justify-content: space-between;
   cursor: pointer;
   height: 90px;
-  width: 225px;
+  max-width: 227px;
   background-color: #fff;
 }
 
-
-.our-people-item img {
-  
-  
-
-}
 .people-item-text {
-  padding-left: 30px;
+  padding-right: 30px;
 }
 .people-name {
   font-weight: bold;
@@ -659,6 +674,7 @@ END VIDEO*/
 /*OUR BLOG
 ===================*/
 .blog {
+  position: relative;
   height: 100%;
   background-color: #5a1830;
   background: url(../img/blog-bg.jpg) center /cover; 
@@ -688,7 +704,7 @@ END VIDEO*/
   cursor: pointer;
   padding: 25px 25px 25px 35px;
   height: 100%;
-  width: 225px;
+  max-width: 225px;
   background-color: #fff;
   font-size: 12px;
   color: #b3b3b3;
@@ -795,7 +811,7 @@ ENC DONATION*/
 .bottom-slider {
   padding-top: 0px;
 }
-.bottom-slider>ul {
+.bottom-slider-wrap {
   display: flex;
 } 
 
@@ -805,13 +821,18 @@ ENC DONATION*/
   background-color:#7f4258;
 
 }
-.bottom-slider>ul>li {
+.bottom-slider-item img {
+  width: 100%;
+}
+.bottom-slider-item {
+  max-width: 100%;
   display: block;
   position: relative;
 }
-.bottom-slider>ul>li:after{
+.bottom-slider-item:after{
     content: ''; 
     position: absolute;
+    
     top: 0;
     left: 0; 
     right: 0; 
@@ -822,9 +843,10 @@ ENC DONATION*/
 }
 
 
-.bottom-slider>ul>li:hover::after {
+.bottom-slider-item:hover::after {
  opacity: 1;
  transition: all 0.3s ease; 
+
 }
 
 .slider-arrow {
@@ -848,7 +870,7 @@ ENC DONATION*/
   transition: all 0.3s ease;
 }
 
-.bottom-slider>ul>li:hover .slider-arrow {
+.bottom-slider-item:hover .slider-arrow {
   transition: all 0.3s ease;
   opacity: 1;
 

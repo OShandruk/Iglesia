@@ -584,7 +584,8 @@
             _.$slider.empty().append(newSlides);
             _.$slider.children().children().children()
                 .css({
-                    'width':(225 / _.options.slidesPerRow) + 'px'
+                    'width':(100 / _.options.slidesPerRow) + '%',
+                    'display': 'inline-block'
                 });
 
         }
