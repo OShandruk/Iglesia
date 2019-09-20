@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -188,10 +188,10 @@ It was popularised in the 1960s with the release of Letraset sheets containing L
 				</p>
 
 				<p class="next-sermons-date">
-					<span>19</span>
-					<span>23</span>
-					<span>34</span>
-					<span>42</span>
+					<span id="days"></span>
+    				<span id="hours"></span>
+    				<span id="minutes"></span>
+    				<span id="seconds"></span>
 				</p>
 
 				
@@ -212,12 +212,13 @@ It was popularised in the 1960s with the release of Letraset sheets containing L
 	<div class="container">
 		<div class="our-people-title">
 			<h5>Our people</h5>
+
+			<div class="our-people-slide-btn">
+				
+			</div>
 		</div>
 			
-		<div class="our-people-slide-btn">
-			
-			
-		</div>
+		
 		<p class="our-people-subtitle"> Lorem Ipsum is simply dummy tex</p>
 
 		<div class="our-people-item-wrap  our-people-slider flex">
@@ -326,11 +327,12 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
 				<!-- OUR BLOG -->
 <section class="blog">
 	<div class="container">
-		<h6 class="blog-title">Our blog</h6>
+		<div class="blog-title">
+		<h6>Our blog</h6>
 		<p class="blog-subtitle">Lorem Ipsum is simply dummy tex</p>
 		<div class="our-blog-slide-btn">
-			
-			
+	
+		</div>
 		</div>
 			<div class="blog-item-wrap our-blog-slider flex">
 				<div class="blog-item hvr-float">
@@ -437,19 +439,26 @@ dummy text</p>
 
 <section class="bottom-slider">
 	<div class="bottom-slider-wrap">
-		<div class="bottom-slider-item"> <img src="img/bottom-slider1.jpg" alt="slider-img"><p class="slider-arrow"></p></div>
-		<div class="bottom-slider-item"><img src="img/bottom-slider2.jpg" alt="slider-img">
-		<p class="slider-arrow"></p></div>
-		<div class="bottom-slider-item"><img src="img/bottom-slider3.jpg" alt="slider-img"><p class="slider-arrow"></p></div>
-		<div class="bottom-slider-item"><img src="img/bottom-slider4.jpg" alt="slider-img"><p class="slider-arrow"></p></div>
+		<div class="bottom-slider-item"> 
+			<img src="img/bottom-slider1.jpg" alt="slider-img">
+			<div class="bottom-slider-btn"></div>
+		</div>
+
+		<div class="bottom-slider-item">
+			<img src="img/bottom-slider2.jpg" alt="slider-img">
+			<div class="bottom-slider-btn"></div>
+		</div>
+
+		<div class="bottom-slider-item"><img src="img/bottom-slider3.jpg" alt="slider-img"><div class="bottom-slider-btn"></div>
+		</div>
+
+		<div class="bottom-slider-item"><img src="img/bottom-slider4.jpg" alt="slider-img"><div class="bottom-slider-btn"></div>
+		</div>
 	</div>
 
 	<div class="slider-overlay">
 
 		
-	</div>
-	<div class="bottom-slider-btn">
-	
 	</div>
 </section>
 			<!-- END BOTTOM SLIDER -->

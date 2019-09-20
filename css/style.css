@@ -440,7 +440,6 @@ END NEXT SERMONS*/
 ====================*/
 .our-people {
   height: 100%;
-  position: relative;
   background-color: #5a1830;
   background: url(../img/our-people-bg.jpg) center /cover; 
 }
@@ -459,13 +458,22 @@ END NEXT SERMONS*/
   font-size: 14px;
   color: #b18b99;
 }
+.our-people-slide-btn {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  
+  
+}
 
 .arrow-left {
-  position: absolute;
-  text-align: center;
-  box-sizing: border-box;
-  top: 90px;
-  left: 500px;
+  display: inline-block;
+  position: relative;
   height: 50px;
   width: 50px;
   font-family: FontAwesome, sans-serif;
@@ -477,10 +485,9 @@ END NEXT SERMONS*/
 }
 
 .arrow-right {
-  position: absolute;
+  display: inline-block;
+  position: relative;
   text-align: center;
-  top: 90px;
-  right: 500px;
   height: 50px;
   width: 50px;
   font-family: FontAwesome, sans-serif;
@@ -687,6 +694,16 @@ END VIDEO*/
   text-align: center;
   font-family: 'Playfair Display SC', serif;
 }
+.our-blog-slide-btn {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  }
 .blog-subtitle {
   padding-top:20px;
   text-align: center;
@@ -851,6 +868,7 @@ ENC DONATION*/
 
 .slider-arrow {
   position: absolute;
+  display: inline-block;
   opacity: 0;
   cursor: pointer;
   font-family: FontAwesome, serif;
@@ -859,11 +877,15 @@ ENC DONATION*/
   padding: 15px;
   background-color: #7f4258;
   border-radius: 50%;
-  margin: auto;
+  /*margin: auto;
   overflow: auto;
   left: auto; top:90px; right:200px;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease;*/
   z-index: 999;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 .slider-arrow:hover {
   background-color:#c55a81; 
