@@ -58,7 +58,7 @@ $(document).ready(function(){
   appendArrows: $('.bottom-slider-btn'),
   prevArrow: '',
   nextArrow: '<p class="slider-arrow"></p>',
-  autoplay: false,
+  autoplay:true,
   autoplaySpeed: 3000,
 });
 
