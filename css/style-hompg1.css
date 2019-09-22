@@ -323,6 +323,171 @@ display: block;
 
 /*END SLIDER
 ===============*/
+/*WELCOME*/
+
+.welcome-title h1 {
+  position: relative;
+  font-size: 44px;
+  color: #5a1830;
+  text-align: center;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.welcome-subtitle {
+  display: block;
+  padding-top:20px;
+  margin-bottom: 35px;
+  text-align: center;
+  font-family: 'DroidSerif', serif;
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.welcome-item-wrap {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.welcome-item {
+  background-color: #f6f6f6;
+  text-align: center;
+  width: 50%;
+  font-family: 'Arial',sans-serif;
+}
+
+.welcome-item img {
+  width: 100%;
+} 
+.welcome-item-title {
+  padding-top: 70px;
+  font-size: 26px;
+  color: #000;
+  text-transform: uppercase;
+  line-height: 1.3;
+}
+.welcome-item-subtitle {
+  font-size: 12px;
+  color: #b3b3b3;
+  padding: 20px 50px 20px 50px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+.welcome-title-btn {
+  border-radius: 3px;
+  background-color: #7f4258;
+  padding: 10px 25px 10px 25px;
+  
+}
+a.welcome-title-btn {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+ 
+}
+.welcome-title-btn:hover {
+  background-color: #c55a81;
+  transition: all 0.3s ease;
+}
+
+
+/*==================================
+========END WELCOME
+*/
+
+/*DONATION
+===================*/
+.donation {
+  background: url(../img/donation-bg.jpg) center /cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);   
+}
+.donation-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.donation-left {
+  width: 30%;
+}
+.donation-right {
+  width: 50%;
+}
+
+.donation-title {
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.donation-subtitle {
+  padding: 20px 0px 20px 0px;
+  font-family: 'DroidSerif', serif;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.donation-btn {
+  display: inline-block;
+  padding: 20px 40px 20px 40px; 
+  background-color: #7f4258;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.donation-btn span {
+  font-family: FontAwesome, sarif;
+}
+
+.donation-btn:hover {
+  background-color: #c55a81;
+  transition: all 0.3s ease;
+}
+a.donation-btn  {
+  color: #fff;
+  text-transform: uppercase;
+} 
+
+.donation-right-title {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 48px;
+  color: #fff;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.donation-right-subtitle {
+  padding: 20px 0px 20px 0px;
+  font-family: 'DroidSerif', serif;
+  font-size: 12px;
+  color: #fff;
+  line-height: 1.4;
+}
+.donation-social {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+
+}
+.donation-social a{
+  display: block;
+  color: #fff;
+  font-size: 24px;
+  transition: all 0.3s ease;
+}
+
+.donation-social a:hover {
+  color: #7f4258;
+  transition: all 0.3s ease;
+}
+
+.donation-social p {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+}
+/*=======================
+ENC DONATION*/
+
 
 /*SERMONS
 ================*/
@@ -551,132 +716,7 @@ END NEXT SERMONS*/
 END OUR PEOPLE*/
 
 
-/*VIDEO
-=================*/
-.video-wrap {
-  display: flex;
-  justify-content: space-between;
-}
 
-.events-title, .review-title {
-  font-family: 'Playfair Display SC', serif;
-  font-size: 24px;
-  color:#804258;
-  padding-bottom:35px;
-
-}
-
-.event-list {
-  padding-left: 20px;
-}
-.events ul li a {
-  
-  font-size: 12px;
-  color: #a3a3a3;
-  transition: all 0.3s ease;
-}
-
-.events ul li a:hover {
-  color:#804258;
-  transition: all 0.3s ease;
-}
-.events ul li {
-  position: relative;
-  border-bottom: 1px solid #a3a3a3;
-  padding: 15px 0px 15px 0px;
-}
-.events ul li:last-child {
-  padding-left: 25px;
-  font-size: 10px;
-  border: none;
-}
-
-.events ul li::before {
-  position: absolute;
-  content: '';
-  top: 19px;
-  left: -20px;
-  font-family: FontAwesome, serif;
-  font-size: 8px;
-  color: #fce374;
-
-}
-.events ul li:last-child::before {
-  content: '';
-}
-
-
-.review {
-  width: 20%;
-}
-.people {
-  display: flex;
-}
-
-.circle {
-  display: block;
-  font-family: FontAwesome, serif;
-}
-.people {
-  margin-bottom: 30px;
-}
-.people img  {
-  margin-right: 20px;
-}
-
-.review-people-name {
-  padding-top: 5px;
-  font-weight: bold;
-}
-.review-people-staff {
-  padding-top: 5px;
-  font-weight: 300;
-  font-size: 12px;
-  color: #b3b3b3;
-}
-
-.review-people-text {
-  font-size: 12px;
-  color: #b3b3b3;
-  line-height: 1.4;
-  padding-bottom: 15px;
-  border-bottom: 1px solid #b3b3b3;
-}
-
-.review a {
-  display: block;
-  padding-top: 15px;
-  font-size: 12px;
-  color: #b3b3b3;
-  transition: all 0.3s ease;
-}
-
-.review a:hover {
-  color:#804258;
-  transition: all 0.3s ease;
-}
-.video-text {
-  margin: 0 auto;
-  width: 80%;
-  font-size: 14px;
-  color: #b3b3b3;
-  line-height: 1.6;
-  text-align: center;
-  margin-top: 50px;
-}
-
-.psalm {
-  display: block;
-  padding: 15px 0px 15px 0px;
-}
-
-.bible {
-  display: block;
-  margin: 0 auto;
-  margin-top: 50px;
-}
-/*================
-END VIDEO*/
 
 /*OUR BLOG
 ===================*/
@@ -755,71 +795,6 @@ END VIDEO*/
 /*=================
 END OUR BLOG*/
 
-/*DONATION
-===================*/
-.donation {
-   padding-bottom: 0px;
-}
-.donation-wrap {
-  justify-content: space-between;
-}
-
-.donation-title {
-  position: relative;
-  font-size: 44px;
-  color: #5a1830;
-  text-align: center;
-  font-family: 'Playfair Display SC', serif;
-}
-
-.donation-subtitle {
-  display: block;
-  padding-top:20px;
-  margin-bottom: 35px;
-
-  font-family: 'DroidSerif', serif;
-  font-size: 12px;
-  color: #b3b3b3;
-}
-
-.donation-button {
-  display: inline-block;
-  padding: 20px 40px 20px 40px; 
-  background-color: #7f4258;
-  border-radius: 5px;
-  transition: all 0.3s ease;
-}
-
-.donation-button span {
-  font-family: FontAwesome, sarif;
-}
-
-.donation-button:hover {
-  background-color: #c55a81;
-  transition: all 0.3s ease;
-}
-a.donation-button  {
-  color: #fff;
-  text-transform: uppercase;
-} 
-
-.donation-text {
-  margin-top: 50px;
-  text-align: right;
-  width:40%;
-  font-family: 'DroidSerif Italic', serif;
-  font-size: 12px;
-  color: #b3b3b3;
-  line-height: 1.9;
-}
-.donation-text span { 
-  display: block;
-  padding-top: 15px;
-}
-
-
-/*=======================
-ENC DONATION*/
 
 /*BOTTOM SLIDER
 =====================*/
@@ -997,68 +972,3 @@ END FOOTER*/
 
 /*++++++++++++++++++++++++++++++++++++=++++*/
 /*==============================================*/
-/*HOMEPAGE 1*/
-
-.welcome-title h1 {
-  position: relative;
-  font-size: 44px;
-  color: #5a1830;
-  text-align: center;
-  font-family: 'Playfair Display SC', serif;
-}
-
-.welcome-subtitle {
-  display: block;
-  padding-top:20px;
-  margin-bottom: 35px;
-  text-align: center;
-  font-family: 'DroidSerif', serif;
-  font-size: 12px;
-  color: #b3b3b3;
-}
-
-.welcome-item-wrap {
-  display: flex;
-  flex-wrap: wrap;
-
-}
-.welcome-item {
-  background-color: #f6f6f6;
-  text-align: center;
-  width: 50%;
-  font-family: 'Arial',sans-serif;
-}
-
-.welcome-item img {
-  width: 100%;
-} 
-.welcome-item-title {
-  padding-top: 70px;
-  font-size: 26px;
-  color: #000;
-  text-transform: uppercase;
-  line-height: 1.3;
-}
-.welcome-item-subtitle {
-  font-size: 12px;
-  color: #b3b3b3;
-  padding: 20px 50px 20px 50px;
-  margin-bottom: 30px;
-  line-height: 1.5;
-}
-.welcome-title-btn {
-  border-radius: 3px;
-  background-color: #7f4258;
-  padding: 10px 25px 10px 25px;
-  
-}
-a.welcome-title-btn {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 14px;
- 
-}
-.welcome-title-btn:hover {
-  background-color: #c55a81;
-  transition: all 0.3s ease;
-}
