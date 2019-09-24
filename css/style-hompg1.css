@@ -502,7 +502,6 @@ END DONATION*/
 .news-wrap {
   width: 61%;
   height: 513px;
-
   position: relative;
   color: #fff;
 }
@@ -583,6 +582,10 @@ END DONATION*/
 .news-item:hover .news-item-title p {
   color: #fff;
 }
+
+.active>.news-item-title p {
+  color: #fff;
+}
 .news-item:hover .news-item-wrap {
   color: #fff;
 }
@@ -633,11 +636,6 @@ a.read-more:hover {
    height: 100%;
 }
 
-
-
-
-      
-/*END  TAB REALIZATION*/
 
 /*======================================
 END EVENTS*/
