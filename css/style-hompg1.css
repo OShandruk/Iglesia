@@ -465,7 +465,7 @@ a.donation-btn  {
 .donation-social {
   display: flex;
   justify-content: space-between;
-  width: 240px;
+news-title-image  width: 240px;
 
 }
 .donation-social a{
@@ -486,8 +486,161 @@ a.donation-btn  {
   color: #fff;
 }
 /*=======================
-ENC DONATION*/
+END DONATION*/
 
+
+
+/*EVENTS
+====================================*/
+.events-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.news-list {
+  width: 39%;
+}
+.news-wrap {
+  width: 61%;
+  height: 513px;
+
+  position: relative;
+  color: #fff;
+}
+
+
+
+
+
+.news {
+  display: none; }
+  .news.active {
+    display: block; }
+.news-bg-wrap {
+  background-color: #1e1e1e;
+}
+
+.events-title h4 {
+  display: inline-block;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 40px;
+  color: #7f4258;
+  text-transform: uppercase;
+  padding-bottom: 45px;
+}
+.events-title a {
+  display: inline-block;
+  color: #7f4258;
+}
+.events-title a:hover {
+  text-decoration: underline;
+}
+
+
+.news-item-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 25px;
+  width: 150px;
+  font-size: 10px;
+  color: #8c8d95;
+}
+.news-coment-counter span{
+  padding-right: 5px;
+   font-family: FontAwesome, sarif;
+   font-size: 14px;
+}
+.news-item-heading {
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #ffefa7;
+}
+
+
+.news-item-title p {
+  font-family: 
+  font-size: 18px;
+  color: #000;
+  line-height: 1.3
+}
+.news-item-heading {
+  color: #8c8d95;
+}
+.news-item {
+  display: block;
+  cursor: pointer;
+  padding: 35px 35px 45px 35px;
+  background-color: #f6f6f6;
+  margin: 0px 5px 5px 0px;
+  transition: all 0.3s ease;
+}
+.news-item:hover, .news-item.active {
+  background-color: #7f4258;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.news-item:hover .news-item-title p {
+  color: #fff;
+}
+.news-item:hover .news-item-wrap {
+  color: #fff;
+}
+
+
+.news-title-image {
+  position: absolute;
+  top: -60px;
+  left: 40px;
+}
+.empty-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.empty {
+  width: 60%;
+  
+}
+.news-title {
+  width: 38%;
+}
+
+.news-title h3 {
+  padding: 50px 0px 25px 0px;
+  font-size: 19px;
+  line-height: 1.3;
+}
+a.read-more {
+  color: #ffefa7;
+  font-size: 12px;
+}
+
+a.read-more:hover {
+  text-decoration: underline;
+}
+.news-text {
+  padding: 35px 20px 45px 45px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.news-image-list-wrap {
+ 
+  display: flex;
+}
+.news-image-list img {
+   width: 100%;
+   height: 100%;
+}
+
+
+
+
+      
+/*END  TAB REALIZATION*/
+
+/*======================================
+END EVENTS*/
 
 /*SERMONS
 ================*/

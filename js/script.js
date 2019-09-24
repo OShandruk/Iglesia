@@ -118,3 +118,48 @@ countdown('10/19/2019 03:14:07 AM');
 
 
 // =======================END TIMER=====================
+
+
+// ==========================TABS===========================
+
+
+
+$(document).ready(function(){
+  
+$('#myTab2').jqTabs({
+
+  mainWrapperClass:'events-wrap',
+
+  tabClass:'news-item',
+
+  tabContentClass:'news'
+
+});
+
+
+});
+// $('#myTab').jqTabs({
+//   tabClicked: $.noop,
+//   tabContentLoaded: $.noop
+// });
+// // selectors
+// $mainWrapper:".jq-tab-wrapper";
+// $tab<a href="https://www.jqueryscript.net/menu/">Menu</a>:".jq-tab-menu";
+// $tab:".jq-tab-title";
+// $contentWrapper:".jq-tab-content-wrapper";
+// $tabContent:".jq-tab-content";
+ 
+// // properties
+// $tabBorder: 1px solid #d1d1d1;
+// $tabBgColor: #d7d7d7;
+// $activeTabBorder: 1px solid #505050;
+// $activeTabBgColor: #e4e4e4;
+// $mainPadding: 1em;
+// $tabTitlePadding: 1em 2em;
+// $tabContentPadding: 1em 1.8em;
+
+
+
+
+
+// =============================END TABS========================
