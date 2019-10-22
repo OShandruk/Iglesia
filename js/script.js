@@ -34,6 +34,25 @@ $(document).ready(function(){
 
 });
 
+
+
+$(document).ready(function(){
+  $('.top-slider-hompg2').slick({
+  dots: false,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  touchMove: true,
+  appendArrows: $('.slide-btn'),
+  prevArrow: '<a href="#" class="slide-left"></a>',
+  nextArrow: '<a href="" class="slide-right"></a>',
+  autoplay: true,
+  autoplaySpeed: 3000,
+  speed: 1500,
+
+});
+
+});
+
 $(document).ready(function(){
   $('.our-blog-slider').slick({
   dots: false,
